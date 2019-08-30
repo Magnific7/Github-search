@@ -1,0 +1,13 @@
+.table-dark{
+text-align: center;
+  width: 80%;
+}
+.in{
+  width:40%; 
+}
+.card{
+  text-align: center;
+}
+#all{
+  display:flex;
+}
