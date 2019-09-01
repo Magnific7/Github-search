@@ -5,5 +5,6 @@ export class User {
     public follower:number,
     public following:number,
     public repo:number
+    
   ) {}
 }
