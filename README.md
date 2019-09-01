@@ -32,3 +32,5 @@ So far there are no known bugs but feel free to let us know if you meet with any
 In case you meet any bugs please let us know .
 You can contact us on 0785712803
 
+### License
+Copyright by Me 2019 **Moringa School**
