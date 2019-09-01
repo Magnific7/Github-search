@@ -7,7 +7,18 @@ text-align: center;
 }
 .card{
   text-align: center;
+  background-color: rgb(110, 105, 105);
+  font-weight: 300px;
+  font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 #all{
   display:flex;
+}
+#nam{
+  text-align:center;
+  color:rgb(175, 182, 111);
+
+}
+#des{
+  text-align: center;
 }

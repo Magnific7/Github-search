@@ -1,18 +1,6 @@
 <h2 class="card"><br />Github Username<br /></h2>
 <br /><br />
-<!-- <div id="all">
-  <input
-    class="form-control in"
-    placeholder="Enter Username"
-    #newUser
-    (keyup.enter)="addUser(newUser.value)"
-  />
-  <button class="btn btn-secondary" (click)="addUser(newUser.value)">
-    Search
-  </button>
-  <p>{{ username }}</p>
-</div> -->
-<!-- User Info -->
+
 <div>
   <br />
   <p><img width="30%" src="{{ User.avatar_url }}" /></p>
@@ -35,7 +23,7 @@
     </tbody>
   </table>
 
-  <!-- <button (click)='goToUrl(repo/details)'>Repo(s): {{user.repo}}</button> -->
+ 
 </div>
 <!-- Repo Info -->
 <div>
@@ -43,16 +31,7 @@
 
   <h2 class="card">Github repository</h2>
 
-  <!-- <input
-    class="form-control"
-    placeholder="Enter repoName"
-    #newRepo
-    (keyup.enter)="addRepo(newRepo.value)"
-  />
-
-  <button class="btn btn-secondary" (click)="addRepo(newRepo.value)">
-    Search
-  </button> -->
+ 
 <div *ngFor='let l of Repository'>
    
   <p id="nam">{{l.name}} <br></p> 
