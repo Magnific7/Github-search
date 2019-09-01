@@ -25,7 +25,8 @@ To view the website,
 So far there are no known bugs but feel free to let us know if you meet with any.
 
 ## Built With :
-
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+* BOOTSTRAP
 
 
 
