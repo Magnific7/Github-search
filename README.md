@@ -22,6 +22,7 @@ To view the website,
 
 ## Known Bugs
 
+So far there are no known bugs but feel free to let us know if you meet with any.
 
 
 
