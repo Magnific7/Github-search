@@ -1,51 +1,62 @@
-<h2 class="card"><br>Github Username<br></h2><br><br>
-<div id="all">
-  
+<h2 class="card"><br />Github Username<br /></h2>
+<br /><br />
+<!-- <div id="all">
   <input
-  
-    class="form-control in" 
-    placeholder="Enter Username" 
-    #newUser 
-    (keyup.enter)="addUser(newUser.value)">
-  <button class="btn btn-secondary" (click)="addUser(newUser.value)">Search</button>
-  <p>{{username}}</p>
-</div>
+    class="form-control in"
+    placeholder="Enter Username"
+    #newUser
+    (keyup.enter)="addUser(newUser.value)"
+  />
+  <button class="btn btn-secondary" (click)="addUser(newUser.value)">
+    Search
+  </button>
+  <p>{{ username }}</p>
+</div> -->
 <!-- User Info -->
-<div><br>
-  <p><img width="30%" src="{{user.profile}}"></p>
+<div>
+  <br />
+  <p><img width="30%" src="{{ User.avatar_url }}" /></p>
   <table class="table table-dark">
     <thead>
-    <tr class="row"> 
- <th class="col-md-2">Name</th>
-  <th class="col-md-2">Followers</th> 
-  <th class="col-md-2">Following</th>
-  <th class="col-md-2">Repositories</th> 
-</tr>
-</thead>
-<tbody>
-  <tr class="row">
-      <td class="col-md-3">{{user.name}}</td>
-        <td class="col-md-2">{{user.follower}}</td>
-        <td class="col-md-2">{{user.following}}</td>
-        <td class="col-md-2">{{user.repo}}</td>
-  </tr>
-</tbody>
-</table>
-
+      <tr class="row">
+        <th class="col-md-2">Name</th>
+        <th class="col-md-2">Followers</th>
+        <th class="col-md-2">Following</th>
+        <th class="col-md-2">Repositories</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr class="row">
+        <td class="col-md-3">{{ User.name }}</td>
+        <td class="col-md-2">{{ User.follower }}</td>
+        <td class="col-md-2">{{ User.following }}</td>
+        <td class="col-md-2">{{ User.repo }}</td>
+      </tr>
+    </tbody>
+  </table>
 
   <!-- <button (click)='goToUrl(repo/details)'>Repo(s): {{user.repo}}</button> -->
 </div>
 <!-- Repo Info -->
-<div><br>
-  <h2>Github repository</h2>
-  <input 
-    class="form-control" 
-    placeholder="Enter repoName" 
-    #newRepo 
-    (keyup.enter)="addRepo(newRepo.value)">
-  
-  <button class="btn btn-secondary" (click)="addRepo(newRepo.value)">Search</button>
-  <p>Repository - Name: <a href="{{repository.html}}">{{repository.repoName}}</a></p>
-  <p>Repository - Description: {{repository.description}}</p>
-  <p>Repository - Language(s): {{repository.language}}</p>
-  </div>
+<div>
+  <br />
+
+  <h2 class="card">Github repository</h2>
+
+  <!-- <input
+    class="form-control"
+    placeholder="Enter repoName"
+    #newRepo
+    (keyup.enter)="addRepo(newRepo.value)"
+  />
+
+  <button class="btn btn-secondary" (click)="addRepo(newRepo.value)">
+    Search
+  </button> -->
+<div *ngFor='let l of Repository'>
+   
+  <p id="nam">{{l.name}} <br></p> 
+  <div id="des">{{l.description}}</div>
+ 
+</div>
+</div>
