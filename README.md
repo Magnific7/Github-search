@@ -1,27 +1,36 @@
-# Searchs
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.0.
 
-## Development server
+# GitHub Search
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+#### By **UM Magnific**
 
-## Code scaffolding
+## Description
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+This is an application that helps to search for a GitHub user's profiles and repositories.
 
-## Build
+## Author
+This application was made by a student in Moringa school called UM Magnific.
+* email:mjones6944@gmail.com
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Setup/Installation Requirements
 
-## Running unit tests
+To view the website, 
+* click [Magnific's website]
+('https://magnific7.github.io/Github-Search/') or 
+* copy the link and paste it to your browser and load it.  
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## Known Bugs
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+So far there are no known bugs but feel free to let us know if you meet with any.
 
-## Further help
+## Built With :
+* This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.2.2.
+* BOOTSTRAP
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Support and contact details
+In case you meet any bugs please let us know .
+You can contact us on 0785712803
+
+### License
+Copyright by Me 2019 **Moringa School**
