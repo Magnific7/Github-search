@@ -1,5 +1,5 @@
 import { StrikethroughDirective } from './strikethrough.directive';
-import { ElementRef } from '@angular/core';
+// import { ElementRef } from '@angular/core';
 
 describe('StrikethroughDirective', () => {
   it('should create an instance', () => {
